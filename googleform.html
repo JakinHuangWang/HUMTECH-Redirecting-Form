@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <iframe id="gform" src="https://docs.google.com/forms/d/e/1FAIpQLSfom_Fg0Aeo0MwGWvIPsnoyWYpsSyuR7uUuDZu0Te8Ym8C18w/viewform" width="640" height="487" frameborder="0" marginheight="0" marginwidth="0" style="margin:0 auto; max-width:100%;">Loading…</iframe>
+        <script type="text/javascript">
+            var load = 0;
+            document.getElementById('gform').onload = function(){
+                load++;
+                if(load > 1){
+                    setTimeout(function(){document.location = "googleform.html";}, 1000)
+                }
+            }
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
